@@ -1,0 +1,19 @@
+*.gem
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+_site/
+node_modules/
+vendor/
+
+# Sensitive exam materials -- must never be committed to this public repo
+Spring_2026/Midterm/Midterm 1.docx
+Spring_2026/Midterm/Midterm 2.docx
+Spring_2026/Midterm/Midterm 3.docx
+Spring_2026/Midterm/Midterm 4.docx
+Spring_2026/Midterm/Midterm_Solutions_GraderKey.docx
+
+# In-class activity answer key -- keep out of the public repo
+Spring_2026/Week 2 -GM/InClass activity worksheet - answer.docx

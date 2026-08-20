@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CS 472/572 Unsupervised Learning
+tagline: Northern Arizona University &middot; Spring 2026
+description: Course website for CS 472/572 Unsupervised Learning at Northern Arizona University, Spring 2026
+author: Dr. Khondker Fariha Hossain
+baseurl: '/cs_472_572' # the subpath of your site, e.g. /blog
+url: 'https://cvail-lab-nau.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+
+# Theme settings
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  NAU School of Informatics, Computing, and Cyber Systems:
+    - 'https://nau.edu/informatics-computing-cyber-systems/'
+footer_content: 'Copyright &copy; 2026 Dr. Khondker Fariha Hossain. Site built with <a href="https://github.com/kevinlin1/just-the-class">Just the Class</a>.'
+
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: '/assets/images/'
+      width: 300
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+liquid:
+  error_mode: strict
+  strict_filters: true
