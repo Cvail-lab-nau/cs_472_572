@@ -1,0 +1,13 @@
+// New SCSS variables (not part of the theme's own palette) used throughout
+// _sass/custom/*.scss. This file is imported for every compiled color
+// scheme (both "vivid" and the theme's built-in "dark" preview build), so
+// these must be defined here rather than in _sass/color_schemes/vivid.scss
+// to avoid breaking the dark-scheme compile.
+$teal-000: #2dd4c8 !default;
+$teal-100: #14b8a6 !default;
+$teal-200: #0f9c8c !default;
+$teal-300: #0b7d71 !default;
+
+$amber-000: #ffd166 !default;
+$amber-100: #f5b000 !default;
+$amber-200: #cf8f00 !default;

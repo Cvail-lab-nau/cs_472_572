@@ -7,6 +7,47 @@
 @import 'schedule';
 @import 'staffer';
 
+// ---------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.site-title {
+  font-family: 'Space Grotesk', $body-font-family;
+  letter-spacing: -0.01em;
+}
+
+.site-title {
+  font-weight: 700;
+  background-image: linear-gradient(90deg, $purple-100, $teal-200);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: $purple-100; // fallback for browsers without background-clip: text
+}
+
+.site-header {
+  background-image: linear-gradient(160deg, rgba($purple-000, 0.1), rgba($teal-000, 0.06) 60%, transparent);
+
+  // The site title wraps to multiple lines at this width, taller than the
+  // theme's fixed $header-height; flex-centering a taller child in a fixed
+  // box pushes part of it above the viewport's top edge, where it's
+  // unreachable (the page can't scroll to negative y) — it just looks
+  // clipped. Growing the header and top-aligning its content instead means
+  // any overflow happens downward (pushing the nav down slightly), which is
+  // harmless, rather than upward, which is invisible.
+  height: auto !important;
+  max-height: none !important;
+  min-height: $header-height;
+  align-items: flex-start !important;
+  padding: $sp-3 0;
+}
+
+.site-title {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
 // Overrides
 code {
   font-size: 14px;
@@ -92,4 +133,141 @@ summary {
   .schedule-day {
     min-width: 100px;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Tables — a soft tinted header and subtle zebra striping for readability
+// ---------------------------------------------------------------------------
+
+table {
+  thead th {
+    background-color: rgba($purple-000, 0.08);
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba($purple-000, 0.03);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Buttons — a little lift on hover
+// ---------------------------------------------------------------------------
+
+.btn {
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Homepage hero
+// ---------------------------------------------------------------------------
+
+.hero {
+  background-image: linear-gradient(135deg, rgba($purple-000, 0.1), rgba($teal-000, 0.08));
+  border: $border $border-color;
+  border-radius: $border-radius * 2;
+  margin: $sp-2 (-$gutter-spacing-sm) $sp-6;
+  padding: $sp-6 $sp-4;
+
+  @include mq(md) {
+    margin: $sp-2 0 $sp-6;
+    padding: $sp-7 $sp-6;
+  }
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-bottom: $sp-2;
+
+  @include mq(md) {
+    font-size: 3rem;
+  }
+}
+
+.hero-tagline {
+  @extend .fs-5;
+
+  color: $purple-200;
+  font-weight: 600;
+  margin-bottom: $sp-3;
+}
+
+.hero-lede {
+  @extend .fs-5;
+
+  color: $body-text-color;
+  max-width: 46rem;
+}
+
+.hero-cta {
+  margin-top: $sp-4;
+}
+
+// ---------------------------------------------------------------------------
+// Quick-links card grid (homepage)
+// ---------------------------------------------------------------------------
+
+.quick-links-grid {
+  display: grid;
+  gap: $sp-4;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin: $sp-4 0 $sp-6;
+}
+
+.quick-link-card {
+  background-color: $body-background-color;
+  border: $border $border-color;
+  border-radius: $border-radius;
+  border-top: 3px solid $purple-000;
+  box-shadow: 0 1px 3px rgba($grey-dk-300, 0.05);
+  color: $body-text-color !important;
+  display: flex;
+  flex-direction: column;
+  padding: $sp-4;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 10px 24px rgba($grey-dk-300, 0.12);
+    transform: translateY(-3px);
+  }
+
+  &.accent-teal {
+    border-top-color: $teal-100;
+  }
+
+  &.accent-amber {
+    border-top-color: $amber-100;
+  }
+}
+
+.quick-link-icon {
+  font-size: 1.75rem;
+  margin-bottom: $sp-2;
+}
+
+.quick-link-title {
+  color: $purple-100;
+  font-family: 'Space Grotesk', $body-font-family;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: $sp-1;
+}
+
+.accent-teal .quick-link-title {
+  color: $teal-300;
+}
+
+.accent-amber .quick-link-title {
+  color: $amber-200;
+}
+
+.quick-link-desc {
+  @extend .fs-3;
+
+  color: $grey-dk-000;
 }

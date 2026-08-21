@@ -1,6 +1,7 @@
 .main-content .module,
 .module {
   @extend %card;
+  border-top-color: $teal-100;
 
   h1,
   h2,

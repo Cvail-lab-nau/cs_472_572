@@ -8,25 +8,57 @@ seo:
   name: CS 472/572 Unsupervised Learning
 ---
 
+<div class="hero" markdown="1">
+
 # CS 472/572: Unsupervised Learning
-{: .fs-9 }
+{: .hero-title }
 
 Northern Arizona University &middot; School of Informatics, Computing, and Cyber Systems &middot; Spring 2026
-{: .fs-5 .text-grey-dk-000 }
+{: .hero-tagline }
 
 Welcome! This course introduces advanced topics in machine learning with a focus on unsupervised and
 self-supervised learning. Students will explore clustering, dimensionality reduction, change-point detection,
-and modern representation learning approaches. See [About]({{ site.baseurl }}/about/) for the full course
-purpose, learning outcomes, and policies.
-{: .fs-5 }
+and modern representation learning approaches.
+{: .hero-lede }
+
+[Read the full course description &rarr;]({{ site.baseurl }}/about/){: .btn .btn-primary .hero-cta }
+
+</div>
 
 ## Quick links
 
-- [About]({{ site.baseurl }}/about/) &mdash; course information, purpose, learning outcomes, texts, and policies
-- [Schedule]({{ site.baseurl }}/schedule/) &mdash; the weekly meeting and office-hours schedule
-- [Calendar]({{ site.baseurl }}/calendar/) &mdash; weekly topics and course materials
-- [Staff]({{ site.baseurl }}/staff/) &mdash; instructor contact information and office hours
-- [Announcements]({{ site.baseurl }}/announcements/) &mdash; the latest course announcements
+<div class="quick-links-grid">
+  <a class="quick-link-card accent-indigo" href="{{ site.baseurl }}/about/">
+    <span class="quick-link-icon" aria-hidden="true">&#128218;</span>
+    <span class="quick-link-title">About</span>
+    <span class="quick-link-desc">Course purpose, unsupervised learning primer, and learning outcomes</span>
+  </a>
+  <a class="quick-link-card accent-teal" href="{{ site.baseurl }}/schedule/">
+    <span class="quick-link-icon" aria-hidden="true">&#128197;</span>
+    <span class="quick-link-title">Schedule</span>
+    <span class="quick-link-desc">The weekly meeting and office-hours schedule</span>
+  </a>
+  <a class="quick-link-card accent-amber" href="{{ site.baseurl }}/calendar/">
+    <span class="quick-link-icon" aria-hidden="true">&#128209;</span>
+    <span class="quick-link-title">Calendar</span>
+    <span class="quick-link-desc">Weekly topics and course materials</span>
+  </a>
+  <a class="quick-link-card accent-teal" href="{{ site.baseurl }}/staff/">
+    <span class="quick-link-icon" aria-hidden="true">&#128100;</span>
+    <span class="quick-link-title">Staff</span>
+    <span class="quick-link-desc">Instructor contact information and office hours</span>
+  </a>
+  <a class="quick-link-card accent-indigo" href="{{ site.baseurl }}/important-information/">
+    <span class="quick-link-icon" aria-hidden="true">&#128204;</span>
+    <span class="quick-link-title">Important Information</span>
+    <span class="quick-link-desc">Presentation formats, final project guidance, and other policies</span>
+  </a>
+  <a class="quick-link-card accent-amber" href="{{ site.baseurl }}/announcements/">
+    <span class="quick-link-icon" aria-hidden="true">&#128227;</span>
+    <span class="quick-link-title">Announcements</span>
+    <span class="quick-link-desc">The latest course announcements</span>
+  </a>
+</div>
 
 ## Latest announcements
 

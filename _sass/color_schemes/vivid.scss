@@ -1,0 +1,40 @@
+// Custom color scheme for CS 472/572 — a refined indigo/teal palette on the
+// default just-the-docs light scheme. See docs/customization.md upstream:
+// redefining $purple-* etc. does not automatically update variables derived
+// from them (like $link-color), so those are reimplemented here too.
+// Plain (non-!default) assignments are used throughout, matching the
+// upstream customization docs' own example, since these run before the
+// theme's own !default assignments for the same names.
+
+// Typography
+$body-font-family: 'Inter', system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+  roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+$mono-font-family: 'JetBrains Mono', "SFMono-Regular", menlo, consolas, monospace;
+
+// Core palette — vivid indigo primary, teal secondary, amber for warm accents
+$purple-000: #6659e8; // primary / link
+$purple-100: #574adb; // primary hover / btn-primary
+$purple-200: #4636c2; // pressed / darker accent
+$purple-300: #372a99; // darkest accent
+
+// Teal/amber accents are defined in _sass/custom/setup.scss so they're also
+// available when the theme compiles its built-in dark-scheme bundle.
+
+// Headings a touch darker/cooler than body text for stronger hierarchy
+$grey-dk-300: #1e1b2e;
+$grey-dk-250: #272233;
+
+// Subtly tinted neutrals so grays feel related to the primary hue
+$grey-lt-000: #f6f5fc;
+$grey-lt-100: #eae7f6;
+$grey-lt-200: #e2ddf2;
+$grey-lt-300: #d8d1ec;
+
+// Reimplemented dependents (per just-the-docs customization docs)
+$body-heading-color: $grey-dk-300;
+$link-color: $purple-000;
+$nav-child-link-color: $grey-dk-100;
+$sidebar-color: $grey-lt-000;
+$btn-primary-color: $purple-100;
+$border-color: $grey-lt-100;
+$border-radius: 8px;
