@@ -38,9 +38,9 @@ and modern representation learning approaches.
     <span class="quick-link-title">Schedule</span>
     <span class="quick-link-desc">The weekly meeting and office-hours schedule</span>
   </a>
-  <a class="quick-link-card accent-amber" href="{{ site.baseurl }}/calendar/">
+  <a class="quick-link-card accent-amber" href="{{ site.baseurl }}/course-content/">
     <span class="quick-link-icon" aria-hidden="true">&#128209;</span>
-    <span class="quick-link-title">Calendar</span>
+    <span class="quick-link-title">Course Content</span>
     <span class="quick-link-desc">Weekly topics and course materials</span>
   </a>
   <a class="quick-link-card accent-teal" href="{{ site.baseurl }}/staff/">

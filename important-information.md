@@ -10,7 +10,7 @@ description: General course policies and procedures that apply throughout the se
 General reference information that applies throughout the semester &mdash; how presentations are formatted and
 graded, what the final project requires at each milestone, and other recurring policies. For grading weights,
 texts, and university policies, see [About]({{ site.baseurl }}/about/); for what's due and when, see the
-[Calendar]({{ site.baseurl }}/calendar/).
+[Course Content]({{ site.baseurl }}/course-content/).
 
 ## Table of contents
 {: .no_toc .text-delta }

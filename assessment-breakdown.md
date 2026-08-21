@@ -16,7 +16,7 @@ description: How your final grade is calculated.
 | Semester-Long Final Project | 40% |
 
 Detailed rubrics for the paper presentations and each final project milestone (topic selection, overview
-presentation, update presentation, and final deliverable) are posted on the [Calendar]({{ site.baseurl }}/calendar/) in the
+presentation, update presentation, and final deliverable) are posted on the [Course Content]({{ site.baseurl }}/course-content/) in the
 week they're due, and general, non-dated versions of those rubrics are on the
 [Important Information]({{ site.baseurl }}/important-information/) page.
 
