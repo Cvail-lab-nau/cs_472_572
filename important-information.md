@@ -31,15 +31,21 @@ texts, and university policies, see [About]({{ site.baseurl }}/about/); for what
 
 ## Preparing Before the Course Starts
 
-A short refresher is shared via Canvas Files to help you ramp up before topics need it:
+A short set of videos is enough to get you ready for the material. Recommended order:
 
-- **Python for beginners** and a **Python libraries (NumPy/Pandas) refresher** &mdash; useful by Week 2.
-- **Math for ML** (linear algebra & statistics refresher) &mdash; useful by Week 4.
-- **Neural networks from scratch** &mdash; only needed once representation-learning topics begin after the
-  midterm.
+1. **Python for absolute beginners** &mdash; [video](https://youtu.be/K5KVEU3aaeQ) &mdash; useful by Week 2
+2. **Python libraries refresher** &mdash; useful by Week 2
+   - [NumPy](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+   - [Pandas](https://www.youtube.com/watch?v=2uvysYbKdjM)
+   - [Scikit-learn](https://www.youtube.com/watch?v=0B5eIE_1vpU&t=188s)
+3. **Math for ML** (linear algebra & statistics refresher) &mdash; [video](https://www.youtube.com/watch?v=uZeDTwWcnuY) &mdash; useful by Week 4
+4. **Neural networks from scratch** &mdash; only needed once representation-learning topics begin after the
+   midterm
+   - [Playlist](https://youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
+   - [Video](https://youtu.be/V_xro1bcAuA)
 
-You don't need to use the exact linked material &mdash; any comparable resource covering the same concepts is
-fine, as long as you're comfortable with the material by the time it's needed.
+You don't need to use these exact videos &mdash; any comparable resource covering the same concepts is fine, as
+long as you're comfortable with the material by the time it's needed.
 
 ## Midterm Exam Format
 
