@@ -49,3 +49,47 @@ summary {
     }
   }
 }
+
+// Make horizontally-scrollable content (wide tables, the weekly schedule
+// grid) obviously scrollable on narrow screens instead of just looking cut
+// off: an always-visible scrollbar plus a fade hint on the trailing edge.
+.table-wrapper,
+.schedule {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $border-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $grey-dk-100;
+    border-radius: $border-radius;
+  }
+}
+
+@media (max-width: map-get($media-queries, md)) {
+  .table-wrapper,
+  .schedule {
+    position: relative;
+
+    &::after {
+      background: linear-gradient(to right, rgba($body-background-color, 0), $body-background-color 95%);
+      bottom: 0;
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 24px;
+    }
+  }
+
+  .schedule-day {
+    min-width: 100px;
+  }
+}
