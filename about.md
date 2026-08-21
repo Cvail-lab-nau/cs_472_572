@@ -3,37 +3,40 @@ layout: page
 title: About
 description: >-
     Course policies and information for CS 472/572 Unsupervised Learning.
+has_toc: false
 ---
 
 # About
-{:.no_toc}
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-## Course Information
-
-| Term | Course | Units | Days & Times | Room | Mode |
-|:-----|:-------|:------|:--------------|:-----|:-----|
-| Spring 2026 | CS 472 | 3 | Tu/Th 9:35&ndash;10:50 AM | SICCS 102 | In person |
-| Spring 2026 | CS 572 | 3 | Tu/Th 9:35&ndash;10:50 AM | SICCS 102 | In person |
-
-**Enrollment requirements:** CS 470 with a grade of C or better; a basic understanding of machine learning. Suggested/soft prerequisites: linear algebra, calculus, and some experience programming in a high-level language with data visualization capabilities.
-
-The full syllabus, including university policy statements, is available as a [PDF]({{ site.baseurl }}/Spring_2026/CS%20475-572-Spring2026-Unsupervised-Learning-Syllabus.pdf).
-
-## Instructor
-
-See the [Staff]({{ site.baseurl }}/staff/) page for contact information and office hours.
 
 ## Course Purpose
 
 This course introduces advanced topics in machine learning with a focus on unsupervised and self-supervised methods. Unlike courses that primarily address supervised learning, where algorithms are trained on labeled data, this course emphasizes techniques for discovering structure in unlabeled data. Students will explore clustering, dimensionality reduction, change-point detection, and modern representation learning approaches.
+
+See [Course Information]({{ site.baseurl }}/course-information/) for term, room, and enrollment details, and the [Staff]({{ site.baseurl }}/staff/) page for instructor contact information and office hours.
+
+## What Is Unsupervised Learning?
+
+Most machine learning techniques you may have already encountered are *supervised*: a model learns a mapping from inputs to known outputs (labels) provided by a human, such as classifying an email as spam or predicting a house price. **Unsupervised learning** removes the labels. Given only raw, unlabeled data, the goal is to discover structure, patterns, or a compact representation of that data on its own.
+
+This course groups the major families of unsupervised and self-supervised techniques as follows:
+
+- **Clustering** &mdash; grouping similar data points together (e.g., k-means, spectral clustering, hierarchical clustering, density-based clustering), useful for market segmentation, document organization, and exploratory data analysis.
+- **Dimensionality reduction & representation learning** &mdash; compressing high-dimensional data into a smaller set of informative features while preserving its structure (e.g., PCA, autoencoders), useful for visualization, denoising, and as a preprocessing step for other models.
+- **Density estimation & anomaly/change-point detection** &mdash; modeling the distribution that generated the data (e.g., Gaussian mixture models fit via the EM algorithm) to flag unusual points or moments where that distribution shifts.
+- **Generative modeling** &mdash; learning to produce new samples that resemble the training data (e.g., variational autoencoders, GANs, diffusion models).
+- **Self-supervised learning** &mdash; a modern hybrid approach that creates its own "labels" from the structure of the data itself (e.g., predicting a masked word, or recognizing that two augmented views of an image come from the same source), and has become the dominant way large-scale foundation models are pretrained.
+
+Unsupervised methods matter because labeled data is expensive and slow to produce, while unlabeled data is abundant. Being able to discover structure without hand-labeling is often the only practical way to work with the volume of data modern applications generate.
+
+## A Brief History of Unsupervised Learning
+
+Unsupervised techniques predate "machine learning" as a field. **Principal component analysis (PCA)**, still one of the most widely used dimensionality-reduction methods, was first described by Karl Pearson in 1901 and independently reformulated by Harold Hotelling in the 1930s.
+
+Cluster analysis developed alongside PCA through the mid-20th century, before **k-means clustering** took its now-familiar form: Hugo Steinhaus proposed the basic idea in 1956, Stuart Lloyd developed the standard algorithm in 1957 (not published until 1982), and James MacQueen coined the name "k-means" in 1967. Around the same period, statisticians developed hierarchical and density-based clustering methods and the **expectation-maximization (EM) algorithm** (Dempster, Laird & Rubin, 1977) &mdash; a general framework for fitting probabilistic models like Gaussian mixtures when data is only partially observed, and still a core tool taught in this course.
+
+The rise of deep learning brought unsupervised learning into representation learning: **autoencoders** learned compressed representations by reconstructing their own input, and generative modeling took off with **variational autoencoders** (Kingma & Welling, 2013), **generative adversarial networks** (Goodfellow et al., 2014), and, more recently, **diffusion models** &mdash; first proposed by Sohl-Dickstein et al. in 2015 and popularized by the denoising diffusion probabilistic models (DDPM) of Ho, Jain & Abbeel in 2020, which now underlie most state-of-the-art image and video generation systems.
+
+In parallel, **self-supervised learning** emerged as a way to get supervised-style training signal without hand labels, by having a model predict some hidden part of its own input. This idea now underlies most modern foundation models, from word embeddings and large language models in NLP to contrastive and masked-image methods in computer vision &mdash; and is one of the newest topics covered in this course.
 
 ## Learning Outcomes
 
@@ -42,42 +45,3 @@ This course introduces advanced topics in machine learning with a focus on unsup
 - **Graduate Student Extensions** &mdash; implement core algorithms from scratch; compare implementations with open-source libraries.
 - **Paper Presentations** &mdash; synthesize and critique state-of-the-art research; communicate findings effectively in written and oral formats.
 - **Final Project** &mdash; design, implement, and evaluate an unsupervised or self-supervised learning system end-to-end. Graduate students must demonstrate additional novelty or technical depth.
-
-## Assessment Breakdown
-
-| Component | Percentage |
-|:----------|:-----------|
-| Participation & Quizzes | 10% |
-| Midterm Exam | 20% |
-| Group Presentation on SOTA Papers | 30% |
-| Semester-Long Final Project | 40% |
-
-Detailed rubrics for the paper presentations and each final project milestone (topic selection, overview
-presentation, update presentation, and final deliverable) are posted on the [Calendar]({{ site.baseurl }}/calendar/) in the
-week they're due.
-
-**Grading scale:** A &ge; 90%, B &ge; 80%, C &ge; 70%, D &ge; 60%, F < 60%. There is no curve &mdash; each student's grade is based on their own outcomes assessments. Extra credit opportunities may be announced during class meetings.
-
-## Texts
-
-- Bishop &mdash; *Pattern Recognition and Machine Learning*
-- Murphy &mdash; *Machine Learning: A Probabilistic Perspective*
-- Hastie et al. &mdash; *Elements of Statistical Learning*
-- Weekly SOTA research papers (links provided on the course site)
-
-## Course Policies
-
-- There will be no make-ups or late work accepted.
-- There may be extra credit assignments given.
-- **Cheating and plagiarism are strictly prohibited.** All work submitted for grading must be your own. For coding projects, this means you may not copy code found on the web and submit it as your own. It is OK to discuss intellectual aspects with other students, but it is NOT OK to copy from other students or other sources. Academic integrity violations will result in penalties including, but not limited to, a zero on the assignment, a failing grade in the class, or expulsion from NAU.
-- Electronic devices must support learning in the class. Cell phones and other entertainment devices must be off or silenced during lecture. Laptops are allowed for note-taking and in-class activities only.
-- Grades will be entered in BBLearn but your official final grade is calculated using the scale above and entered in LOUIE.
-- Email to the instructor must be respectful and professional, with the subject line prefixed **"CS472/572"**. Allow up to three business days for a response; for longer discussions, come to office hours.
-- Visiting the instructor during office hours is encouraged!
-
-Full course policies and university policy statements (academic integrity, AI use, accessibility, Title IX, and more) are in the [syllabus PDF]({{ site.baseurl }}/Spring_2026/CS%20475-572-Spring2026-Unsupervised-Learning-Syllabus.pdf).
-
-## SICCS Student Support
-
-- **Free tutoring:** Students enrolled in 100/200-level CS, EE, SE, IMG, or CYB courses have access to free tutoring in Engineering Building Room 104, beginning Week 2.
-- **Career readiness extra credit:** Attending an Industry Night talk (+2% per course, per semester) or the NAU Engineering Fest (+3% per course, per semester) can earn extra credit in one CS-, EE-, SE-, IMG-, or CYB-prefixed course of your choice.
