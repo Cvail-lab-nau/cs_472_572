@@ -1,8 +1,9 @@
 ---
-title: 'Week 11: Autoencoders'
+title: 'Week 11: Student Paper Presentations 2'
 ---
 
-Autoencoders and representation learning with neural networks.
+Second round of student group presentations on state-of-the-art research papers, using the same format and
+rubric as Week 5.
 
-- [Slides: Autoencoders (Class 1)]({{ site.baseurl }}/Spring_2026/Week%2012-%20Autoencoder/Week%205%20Class%201_Autoencoder.pptx)
-- [Slides: Autoencoders (Class 2)]({{ site.baseurl }}/Spring_2026/Week%2012-%20Autoencoder/Week%205%20Class%202_Autoencoder.pptx)
+- [Presentation Rubric (Undergrad)]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
+- [Paper Sign-Up Sheet]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572%20Group_%20Paper.xlsx)

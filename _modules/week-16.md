@@ -1,9 +1,9 @@
 ---
-title: 'Week 16: Final Project Presentations & Submission'
+title: 'Week 16: Final Project Presentation Day 2 & Submission'
 ---
 
-Final project presentations (schedule and location announced closer to the date; typically ~10 minutes
-presenting + ~3 minutes Q&A per group), followed by the final submission deadline.
+Second and final day of final project presentations (typically ~10 minutes presenting + ~3 minutes Q&A per
+group), followed by the final submission deadline.
 
 **Final Project rubric (30 of the 40 points allocated to the Final Project):**
 

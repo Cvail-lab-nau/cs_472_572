@@ -9,4 +9,4 @@ Before Week 2, review the Python/NumPy/Pandas basics; before Week 4, review the 
 you'll need for clustering and representation learning. Any comparable refresher material is fine as long as
 you're comfortable with the concepts.
 
-- [Slides: Introduction]({{ site.baseurl }}/Spring_2026/Week%201%20-%20Introduction/Intro_Class.pptx)
+- [Slides: Introduction]({{ site.baseurl }}/Fall_2026/Week%201%20-%20Introduction/Intro_Class.pptx)

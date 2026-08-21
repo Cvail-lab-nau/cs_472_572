@@ -7,5 +7,5 @@ Clustering II (GMMs & EM), Hierarchical & Density-Based Clustering, and PCA. The
 conceptual/theoretical questions and hand-simulation problems that require working through small, illustrative
 examples step by step.
 
-- [Midterm Guide]({{ site.baseurl }}/Spring_2026/Midterm/Midterm%20Guide.pdf)
-- [Midterm Study Guide]({{ site.baseurl }}/Spring_2026/Midterm/Midterm_StudyGuide.docx)
+- [Midterm Guide]({{ site.baseurl }}/Fall_2026/Midterm/Midterm%20Guide.pdf)
+- [Midterm Study Guide]({{ site.baseurl }}/Fall_2026/Midterm/Midterm_StudyGuide.docx)

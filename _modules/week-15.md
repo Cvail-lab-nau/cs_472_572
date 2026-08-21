@@ -1,6 +1,6 @@
 ---
-title: 'Week 15: Self-Supervised Learning'
+title: 'Week 15: Final Project Presentation Day 1'
 ---
 
-Self-supervised learning methods and their relationship to representation learning covered earlier in the
-semester.
+First day of final project presentations (schedule and location announced closer to the date; typically
+~10 minutes presenting + ~3 minutes Q&A per group).

@@ -13,7 +13,7 @@ seo:
 # CS 472/572: Unsupervised Learning
 {: .hero-title }
 
-Northern Arizona University &middot; School of Informatics, Computing, and Cyber Systems &middot; Spring 2026
+Northern Arizona University &middot; School of Informatics, Computing, and Cyber Systems &middot; Fall 2026
 {: .hero-tagline }
 
 Welcome! This course introduces advanced topics in machine learning with a focus on unsupervised and

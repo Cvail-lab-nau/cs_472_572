@@ -1,9 +1,19 @@
 ---
-title: 'Week 5: Hierarchical & Density-Based Clustering'
+title: 'Week 5: Student Paper Presentations 1'
 ---
 
-Agglomerative/divisive hierarchical clustering, dendrograms, DBSCAN, and k-medoids.
+First round of student group presentations on state-of-the-art (SOTA) research papers.
 
-- [Slides: Hierarchical Clustering]({{ site.baseurl }}/Spring_2026/Week%203%20-Hiearchical%20clustering/Week%206%20Class%201%20Hierarchical%20Clustering.pptx)
-- [Reading: Unsupervised Algorithms]({{ site.baseurl }}/Spring_2026/Week%203%20-Hiearchical%20clustering/Unsupervised_algo.docx)
-- [Notes: K-Medoids]({{ site.baseurl }}/Spring_2026/Notes/kmedoids.pdf)
+- [Presentation Rubric (Undergrad)]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
+- [Paper Sign-Up Sheet]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572%20Group_%20Paper.xlsx)
+
+**Format:** groups of two present for 10 minutes total &mdash; about 8 minutes presenting, followed by Q&A.
+Presentations run across two class sessions.
+
+**Grading (15 marks per round, worth 30% of the course grade combined with Week 11):**
+
+| Component | Marks |
+|:----------|:------|
+| Attendance (both presentation days) | 2 |
+| Peer evaluation | 5 |
+| Instructor evaluation | 8 |

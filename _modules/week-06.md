@@ -1,8 +1,9 @@
 ---
-title: 'Week 6: Final Project Topic Selection'
+title: 'Week 6: Hierarchical & Density-Based Clustering'
 ---
 
-Begin forming your final project team and identifying a topic. Start with a literature review: search
-existing work, identify a clear direction, and check the availability of core components (dataset,
-algorithm, etc.). You're welcome to extend a capstone project or other existing project into an unsupervised
-learning context. The project spreadsheet (shared separately) is used to track teams, topics, and titles.
+Agglomerative/divisive hierarchical clustering, dendrograms, DBSCAN, and k-medoids.
+
+- [Slides: Hierarchical Clustering]({{ site.baseurl }}/Fall_2026/Week%203%20-Hiearchical%20clustering/Week%206%20Class%201%20Hierarchical%20Clustering.pptx)
+- [Reading: Unsupervised Algorithms]({{ site.baseurl }}/Fall_2026/Week%203%20-Hiearchical%20clustering/Unsupervised_algo.docx)
+- [Notes: K-Medoids]({{ site.baseurl }}/Fall_2026/Notes/kmedoids.pdf)

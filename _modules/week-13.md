@@ -1,14 +1,8 @@
 ---
-title: 'Week 13: Final Project Update Presentation'
+title: 'Week 13: Emerging Methods — Diffusion Models'
 ---
 
-Second project check-in (worth 5 of the 40 points allocated to the Final Project). Your presentation should
-demonstrate concrete progress and incorporation of prior feedback.
+An introduction to diffusion models within the broader landscape of deep generative learning.
 
-**Your slides should address:**
-
-- **Problem setup & direction** &mdash; dataset(s), methods/models you're implementing, stated with confidence
-- **Feedback incorporation** &mdash; a slide summarizing key feedback from your overview presentation and how you addressed it
-- **Progress so far** &mdash; data collection/preprocessing, initial implementations, sample inputs/outputs, preliminary results if available
-- **Implementation updates** &mdash; what's built, and what you've learned
-- **Timeline** &mdash; what's done, and a forward-looking plan to the final deadline
+- [Slides: Diffusion Models]({{ site.baseurl }}/Fall_2026/Week%2014%20-%20Diffusion%20model/Week%20-14%20Diffusion%20Model%20.pptx)
+- [Slides: Deep Learning Overview]({{ site.baseurl }}/Fall_2026/Week%2014%20-%20Diffusion%20model/Week%2014%20%20Deeplearning%20Overview.pptx)

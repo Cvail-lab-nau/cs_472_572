@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CS 472/572 Unsupervised Learning
-tagline: Northern Arizona University &middot; Spring 2026
-description: Course website for CS 472/572 Unsupervised Learning at Northern Arizona University, Spring 2026
+tagline: Northern Arizona University &middot; Fall 2026
+description: Course website for CS 472/572 Unsupervised Learning at Northern Arizona University, Fall 2026
 author: Dr. Khondker Fariha Hossain
 baseurl: '/cs_472_572' # the subpath of your site, e.g. /blog
 url: 'https://cvail-lab-nau.github.io' # the base hostname & protocol for your site, e.g. http://example.com
