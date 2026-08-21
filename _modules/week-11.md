@@ -6,3 +6,4 @@ Autoencoders and representation learning with neural networks.
 
 - [Slides: Autoencoders (Class 1)]({{ site.baseurl }}/Spring_2026/Week%2012-%20Autoencoder/Week%205%20Class%201_Autoencoder.pptx)
 - [Slides: Autoencoders (Class 2)]({{ site.baseurl }}/Spring_2026/Week%2012-%20Autoencoder/Week%205%20Class%202_Autoencoder.pptx)
+- [Notebook: Autoencoder vs VAE]({{ site.baseurl }}/Spring_2026/Week%2012-%20Autoencoder/CS_472_572_AE_vs_VAE.ipynb)

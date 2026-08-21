@@ -7,3 +7,4 @@ Agglomerative/divisive hierarchical clustering, dendrograms, DBSCAN, and k-medoi
 - [Slides: Hierarchical Clustering]({{ site.baseurl }}/Spring_2026/Week%203%20-Hiearchical%20clustering/Week%206%20Class%201%20Hierarchical%20Clustering.pptx)
 - [Reading: Unsupervised Algorithms]({{ site.baseurl }}/Spring_2026/Week%203%20-Hiearchical%20clustering/Unsupervised_algo.docx)
 - [Notes: K-Medoids]({{ site.baseurl }}/Spring_2026/Notes/kmedoids.pdf)
+- [Notebook: Hierarchical Clustering In-Class Activity]({{ site.baseurl }}/Spring_2026/Week%203%20-Hiearchical%20clustering/Class_2_Hierarchical_Clustering_inClass_activity.ipynb)

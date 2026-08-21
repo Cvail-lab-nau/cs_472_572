@@ -11,3 +11,4 @@ Principal component analysis, eigenvalues/eigenvectors, and probabilistic PCA.
 - [Notebook: PCA Pipeline]({{ site.baseurl }}/Spring_2026/Week%205%20-%20PCA%20analysis/Day2_PCA_Pipeline.ipynb)
 - [PCA In-Class Simulation]({{ site.baseurl }}/Spring_2026/Week%205%20-%20PCA%20analysis/PCA_InClass_Simulation.pdf)
 - [Notes: PCA]({{ site.baseurl }}/Spring_2026/Notes/pca.pdf)
+- [Slides: PCA (Class 2) — PDF]({{ site.baseurl }}/Spring_2026/Week%205%20-%20PCA%20analysis/Week%209%20Class%202%20PCA%20.pdf)
