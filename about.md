@@ -29,7 +29,7 @@ The full syllabus, including university policy statements, is available as a [PD
 
 ## Instructor
 
-See the [Staff](staff.md) page for contact information and office hours.
+See the [Staff]({{ site.baseurl }}/staff/) page for contact information and office hours.
 
 ## Course Purpose
 
@@ -53,7 +53,7 @@ This course introduces advanced topics in machine learning with a focus on unsup
 | Semester-Long Final Project | 40% |
 
 Detailed rubrics for the paper presentations and each final project milestone (topic selection, overview
-presentation, update presentation, and final deliverable) are posted on the [Calendar](calendar.md) in the
+presentation, update presentation, and final deliverable) are posted on the [Calendar]({{ site.baseurl }}/calendar/) in the
 week they're due.
 
 **Grading scale:** A &ge; 90%, B &ge; 80%, C &ge; 70%, D &ge; 60%, F < 60%. There is no curve &mdash; each student's grade is based on their own outcomes assessments. Extra credit opportunities may be announced during class meetings.
