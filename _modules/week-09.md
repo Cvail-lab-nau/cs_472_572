@@ -8,4 +8,3 @@ conceptual/theoretical questions and hand-simulation problems that require worki
 examples step by step.
 
 - [Midterm Guide]({{ site.baseurl }}/Fall_2026/Midterm/Midterm%20Guide.pdf)
-- [Midterm Study Guide]({{ site.baseurl }}/Fall_2026/Midterm/Midterm_StudyGuide.docx)
