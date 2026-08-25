@@ -24,8 +24,6 @@ texts, and university policies, see [About]({{ site.baseurl }}/about/); for what
 
 - Office hours are posted on the [Staff]({{ site.baseurl }}/staff/) page. If you need to meet outside those
   times, email the instructor to schedule an appointment.
-- Ahead of major exams, an additional review session is typically offered (often over Zoom) &mdash; watch for
-  an announcement with the date, time, and link.
 - If you're finding the material difficult or feeling overwhelmed, come to office hours or email to set up a
   meeting. The pace of new material generally eases in the back half of the semester.
 

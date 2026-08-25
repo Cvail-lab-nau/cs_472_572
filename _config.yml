@@ -32,6 +32,9 @@ aux_links:
     - 'https://nau.edu/informatics-computing-cyber-systems/'
 footer_content: 'Copyright &copy; 2026 Dr. Khondker Fariha Hossain. Site built with <a href="https://github.com/kevinlin1/just-the-class">Just the Class</a>.'
 
+plugins:
+  - jekyll-redirect-from
+
 # Collections for website data
 collections:
   staffers:
