@@ -271,3 +271,148 @@ table {
 
   color: $grey-dk-000;
 }
+
+// ---------------------------------------------------------------------------
+// Monthly calendar (Schedule page)
+// ---------------------------------------------------------------------------
+
+.month-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-4;
+  margin: $sp-3 0;
+}
+
+.month-legend-item {
+  align-items: center;
+  color: $grey-dk-100;
+  display: inline-flex;
+  font-size: 0.85rem;
+  gap: 6px;
+}
+
+.month-legend-swatch {
+  border-radius: 3px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+
+  &.is-class {
+    background-color: $purple-000;
+  }
+
+  &.is-presentation {
+    background-color: $teal-100;
+  }
+
+  &.is-exam {
+    background-color: $amber-100;
+  }
+
+  &.is-holiday {
+    background-color: $grey-lt-300;
+  }
+}
+
+.month-calendar {
+  margin-bottom: $sp-6;
+}
+
+.month-calendar-title {
+  font-size: 1.25rem;
+  margin-bottom: $sp-2;
+}
+
+.month-grid {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.month-grid-weekday {
+  color: $grey-dk-100;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding-bottom: $sp-1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.month-grid-cell {
+  border: $border $border-color;
+  border-radius: $border-radius;
+  min-height: 4.5rem;
+  padding: $sp-1;
+
+  &.is-empty {
+    border-color: transparent;
+  }
+
+  &.is-class-day {
+    background-color: rgba($purple-000, 0.05);
+    border-top: 3px solid $purple-000;
+  }
+
+  &.is-presentation {
+    background-color: rgba($teal-000, 0.06);
+    border-top-color: $teal-100;
+  }
+
+  &.is-exam {
+    background-color: rgba($amber-000, 0.1);
+    border-top-color: $amber-100;
+  }
+
+  &.is-holiday {
+    background-color: rgba($grey-dk-300, 0.04);
+    border-top: 3px solid $grey-lt-300;
+  }
+}
+
+.month-grid-date {
+  font-family: 'Space Grotesk', $body-font-family;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.month-grid-week {
+  color: $purple-100;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.is-presentation .month-grid-week {
+  color: $teal-300;
+}
+
+.is-exam .month-grid-week {
+  color: $amber-200;
+}
+
+.is-holiday .month-grid-week {
+  color: $grey-dk-100;
+}
+
+.month-grid-topic {
+  color: $grey-dk-100;
+  font-size: 0.7rem;
+  line-height: 1.25;
+  margin-top: 2px;
+}
+
+@media (max-width: map-get($media-queries, md)) {
+  .month-grid-weekday {
+    font-size: 0.65rem;
+  }
+
+  .month-grid-cell {
+    font-size: 0.65rem;
+    min-height: 3.5rem;
+    padding: 2px;
+  }
+
+  .month-grid-topic {
+    display: none;
+  }
+}
