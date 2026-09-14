@@ -6,5 +6,3 @@ In-person midterm exam during the regular class time, covering Clustering I (K-m
 Clustering II (GMMs & EM), Hierarchical & Density-Based Clustering, and PCA. The exam includes both
 conceptual/theoretical questions and hand-simulation problems that require working through small, illustrative
 examples step by step.
-
-- [Midterm Guide]({{ site.baseurl }}/Fall_2026/Midterm/Midterm%20Guide.pdf)
