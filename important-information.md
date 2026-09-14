@@ -59,7 +59,7 @@ The exam includes both conceptual/theoretical questions and hand-simulation prob
 through small, illustrative examples step by step. A study handout outlining the scope of questions is posted
 in the Midterm module ahead of time.
 
-## Participation in the Quizzes
+## Participation and the Quizzes
 
 Participation in quizzes and in-class activities makes up 10% of your total grade.
 
