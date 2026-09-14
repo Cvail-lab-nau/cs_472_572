@@ -59,6 +59,31 @@ The exam includes both conceptual/theoretical questions and hand-simulation prob
 through small, illustrative examples step by step. A study handout outlining the scope of questions is posted
 in the Midterm module ahead of time.
 
+## Participation in the Quizzes
+
+Participation in quizzes and in-class activities makes up 10% of your total grade.
+
+- There is no fixed or announced schedule for these activities &mdash; they may take place on any class day,
+  without advance notice.
+- Activities may include short in-class coding/scoring exercises, or in-class work focused on solving problems,
+  analysis, or discussion.
+- Grading is not based on how well or how efficiently you complete the activity &mdash; it is based on whether
+  you were present and actively participated.
+- Each activity is graded on a binary basis: 1 if you were present and submitted the activity, 0 if you were
+  not.
+- Most activities require an in-class submission, which serves as the record of your participation.
+- If circumstances require completing an activity outside of class instead of in person, this will be
+  accommodated on a case-by-case basis.
+
+<p style="color:#c0392b;"><strong>If you miss a class and therefore miss a participation activity, per
+department policy, a resulting zero cannot be changed without documented evidence. Simply stating that you were
+unwell, without a medical note or equivalent documentation, is not sufficient on its own. Acceptable evidence
+includes, for example, an email you sent notifying the instructor of your absence and the reason for it, along
+with any reply. Grading mistakes are possible &mdash; if you believe you received a zero in error, you must be
+able to provide evidence (such as an email exchange) showing you were present, or that you had a valid,
+documented reason for missing that specific class. This policy applies specifically to class days on which a
+participation activity was assigned.</strong></p>
+
 ## SOTA Paper Presentations
 
 Presentations are done in **pairs**, run **10 minutes total per group** (about 8 minutes presenting, the rest
@@ -73,6 +98,32 @@ for Q&A), and are held across two class sessions per round. There are two rounds
 | Instructor evaluation | 8 | 53.3% |
 
 If you need to change your assigned paper, email the instructor for approval.
+
+### Expected Depth of Content
+
+The SOTA Paper Presentation asks each group to develop and demonstrate a deep technical understanding of a
+research paper in the field, rather than producing a surface-level summary.
+
+The rubric above covers grading criteria for the presentation itself, but does not fully capture the expected
+depth of content. Presentations should go beyond a basic slide summary and should include:
+
+- **In-depth methodology** &mdash; explain not just what the paper does, but how and why its methods work; walk
+  through the core technique rather than restating the abstract
+- **Relevant equations** &mdash; include the key equations from the paper (or equivalent notation) to
+  substantiate your explanation of the methodology, not prose alone
+- **Novelty** &mdash; clearly articulate what is new or different about this paper's contribution compared to
+  prior work
+- **Problem statement** &mdash; state the specific problem or limitation the paper addresses
+- **Proposed solution** &mdash; explain how the paper's approach solves that problem
+- **Datasets** &mdash; describe the dataset(s) used for evaluation
+- **Results and graphs** &mdash; present the paper's key results, including its figures/graphs, and explain what
+  they show
+- **Your own analysis** &mdash; provide your own critical assessment of the methodology, results, and
+  presentation, including any limitations you identify; this should go beyond restating the authors' claims
+
+**Presentation style:** Presenters are expected to be interactive and engaged with the audience, not reading
+directly from slides or notes. You should understand the paper deeply enough to explain it in your own words
+and respond to questions &mdash; this is a demonstration of understanding, not a recitation.
 
 **Detailed rubric (used for peer & instructor evaluation):**
 
@@ -101,7 +152,7 @@ Each criterion is scored 0&ndash;5 using the scale below, then totaled.
 | 1 | Poor: major gaps/misunderstandings |
 | 0 | Missing/not attempted |
 
-Full rubric document: [Presentation Rubric (Undergrad)]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
+Full rubric document: [Presentation Rubric]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
 
 ## Final Project
 
@@ -178,10 +229,3 @@ If your deliverable includes a project website, GitHub Pages is a free way to ho
 - [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 - [How to Create a Free Website Using GitHub Pages (video)](https://youtu.be/o5g-lUuFgpg)
 - [Example project page templates](https://github.com/topics/project-template)
-
-## Course Evaluation Bonus
-
-You can earn 1 bonus point by completing the [course evaluation](https://nau.edu/course_evals) near the end of
-the semester. Take a screenshot of the confirmation page (showing your name and that you submitted it, but
-**not** your actual responses &mdash; feedback is anonymous) and upload it to the corresponding bonus
-assignment on Canvas.

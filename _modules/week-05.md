@@ -4,7 +4,7 @@ title: 'Week 5: Student Paper Presentations 1'
 
 First round of student group presentations on state-of-the-art (SOTA) research papers.
 
-- [Presentation Rubric (Undergrad)]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
+- [Presentation Rubric]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
 
 **Format:** groups of two present for 10 minutes total &mdash; about 8 minutes presenting, followed by Q&A.
 Presentations run across two class sessions.
