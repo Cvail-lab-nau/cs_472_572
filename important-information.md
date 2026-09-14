@@ -74,6 +74,35 @@ for Q&A), and are held across two class sessions per round. There are two rounds
 
 If you need to change your assigned paper, email the instructor for approval.
 
+**Detailed rubric (used for peer & instructor evaluation):**
+
+Each criterion is scored 0&ndash;5 using the scale below, then totaled.
+
+| # | Criterion | What to look for |
+|:--|:----------|:------------------|
+| 1 | Problem fit | Why clustering (unsupervised) is appropriate: task & context clear |
+| 2 | Novelty | What's new vs. k-means/GMM/spectral/DBSCAN/HDBSCAN/hierarchical: key idea stated |
+| 3 | Method clarity | Steps precise; similarity/distance choice justified; key params (k, &epsilon;/MinPts, linkage, graph k/&sigma;) explained; complexity noted |
+| 4 | Setup | Datasets (synthetic + real) reasonable; baselines strong; metrics (ARI/NMI/AMI, silhouette, purity) appropriate |
+| 5 | Results insight | Correct metric reading; clear visuals (dendrograms/embeddings); takeaways beyond numbers |
+| 6 | SOTA comparison | Fair head-to-head; when/why it wins or fails (density variation, high-dim, scalability) |
+| 7 | Limits & failure modes | Assumptions, sensitivity (params, noise, chaining, graph bias), when not to use |
+| 8 | Reproducibility & ethics | Code/data & hyperparams; runtime/memory; notes on bias/privacy for unsupervised grouping |
+| 9 | Slide clarity | Clean pipeline diagram; readable plots/legends; proper citations; logical flow |
+
+**Scoring scale:**
+
+| Score | Description |
+|:------|:-------------|
+| 5 | Excellent: complete, clear, insightful, and technically correct |
+| 4 | Strong: minor gaps or small clarity issues |
+| 3 | Adequate: covers basics; some unclear/shallow parts |
+| 2 | Weak: important gaps; unclear or partially incorrect |
+| 1 | Poor: major gaps/misunderstandings |
+| 0 | Missing/not attempted |
+
+Full rubric document: [Presentation Rubric (Undergrad)]({{ site.baseurl }}/Fall_2026/Files/CS%20472_572_%20Paper%20presentation%20Rubric_%20UnderGrad.docx)
+
 ## Final Project
 
 ### Choosing a Topic
