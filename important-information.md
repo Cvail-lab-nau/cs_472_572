@@ -76,13 +76,15 @@ Participation in quizzes and in-class activities makes up 10% of your total grad
   accommodated on a case-by-case basis.
 
 <p style="color:#c0392b;"><strong>If you miss a class and therefore miss a participation activity, per
-department policy, a resulting zero cannot be changed without documented evidence. Simply stating that you were
+department policy, a resulting zero cannot be changed without documented evidence. Simply telling me you were
 unwell, without a medical note or equivalent documentation, is not sufficient on its own. Acceptable evidence
-includes, for example, an email you sent notifying the instructor of your absence and the reason for it, along
-with any reply. Grading mistakes are possible &mdash; if you believe you received a zero in error, you must be
-able to provide evidence (such as an email exchange) showing you were present, or that you had a valid,
-documented reason for missing that specific class. This policy applies specifically to class days on which a
-participation activity was assigned.</strong></p>
+(non medicals) includes, for example, an email you sent me notifying me of your absence and the reason for it.
+Mistakes in grading are possible, if you believe you received a zero in error, you'll need to be able to show
+evidence (such as an email) that you sent, or that you had a valid, documented reason for missing that specific
+class.</strong></p>
+
+<p style="color:#c0392b;"><strong>This policy applies specifically to class days on which a participation
+activity was assigned.</strong></p>
 
 ## SOTA Paper Presentations
 
