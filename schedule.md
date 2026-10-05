@@ -160,9 +160,9 @@ to match if this new schedule is final.
 <div class="month-grid-cell"><div class="month-grid-date">10</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">11</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">12</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">13</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">13</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Overview Presentation</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">14</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">15</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">15</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Overview Presentation</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">16</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">17</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">18</div></div>
