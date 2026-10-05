@@ -158,6 +158,11 @@ Full rubric document: [Presentation Rubric]({{ site.baseurl }}/Fall_2026/Files/C
 
 ## Final Project
 
+Everyone follows the same final project milestones &mdash; topic selection, an Overview Presentation (Week 7),
+two Update Presentations (Weeks 9 and 12), and a Final Presentation & Submission (Weeks 15&ndash;16). See
+[Throughout the Semester]({{ site.baseurl }}/throughout-the-semester/) for how these are scheduled and weighted.
+What differs between undergraduate and graduate students is the **deliverable** itself, detailed below.
+
 ### Choosing a Topic
 
 - The project must focus on **unsupervised machine learning**.
@@ -165,6 +170,19 @@ Full rubric document: [Presentation Rubric]({{ site.baseurl }}/Fall_2026/Files/C
 - Check the availability of the core components you'll need (dataset, algorithm implementations, etc.) before
   committing to a topic.
 - You're welcome to extend a capstone project or other existing project into an unsupervised-learning context.
+
+### Deliverable by Degree Level
+
+- **Undergraduate:** a project website, built with **GitHub Pages** (preferred), or a concise written report.
+  Graded on how clearly and usably the site/app presents the project's motivation, method, and results. A
+  paper-style write-up is optional, not required.
+- **Graduate:** a **paper-style write-up**, written like a short conference paper &mdash; motivation, related
+  work, method, experiments/results, discussion. A project website or demo is optional, but is not a substitute
+  for the paper. Graduate submissions are expected to demonstrate additional novelty or technical depth beyond
+  the undergraduate scope (see [About]({{ site.baseurl }}/about/#learning-outcomes)).
+
+Both levels follow the same milestones, dates, and presentation format, and the same grading rubric below
+&mdash; only the "Deliverable quality" criterion and the GitHub LICENSE requirement differ by level.
 
 ### Overview Presentation
 
@@ -182,9 +200,10 @@ Worth 5 of the 40 points allocated to the Final Project. You must be present on 
 This is an initial estimate and can be updated as the project evolves; the most important part is showing
 you've found enough existing work to build on.
 
-### Update Presentation
+### Update Presentations
 
-Worth 5 of the 40 points allocated to the Final Project. Your presentation should demonstrate concrete
+Given twice &mdash; in Week 9 and again in Week 12. Worth 5 of the 40 points allocated to the Final Project.
+Each presentation should demonstrate concrete
 progress and incorporation of prior feedback:
 
 - **Problem & direction** &mdash; restate your problem setup with confidence

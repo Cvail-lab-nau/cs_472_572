@@ -160,16 +160,16 @@ to match if this new schedule is final.
 <div class="month-grid-cell"><div class="month-grid-date">10</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">11</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">12</div></div>
-<div class="month-grid-cell is-class-day is-exam"><div class="month-grid-date">13</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Midterm Exam</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">13</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">14</div></div>
-<div class="month-grid-cell is-class-day is-exam"><div class="month-grid-date">15</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Midterm Exam</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">15</div><div class="month-grid-week">Week 9</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">16</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">17</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">18</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">19</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">20</div><div class="month-grid-week">Week 10</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
+<div class="month-grid-cell is-class-day is-exam"><div class="month-grid-date">20</div><div class="month-grid-week">Week 10</div><div class="month-grid-topic">Midterm Exam</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">21</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">22</div><div class="month-grid-week">Week 10</div><div class="month-grid-topic">Final Project Update Presentation</div></div>
+<div class="month-grid-cell is-class-day is-exam"><div class="month-grid-date">22</div><div class="month-grid-week">Week 10</div><div class="month-grid-topic">Midterm Exam</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">23</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">24</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">25</div></div>
@@ -192,23 +192,23 @@ to match if this new schedule is final.
 <div class="month-grid-weekday">Sat</div>
 <div class="month-grid-cell"><div class="month-grid-date">1</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">2</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">3</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Autoencoders</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">3</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">4</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">5</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Autoencoders</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">5</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">6</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">7</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">8</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">9</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">10</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Emerging Methods &mdash; Diffusion Models</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">10</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Autoencoders</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">11</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">12</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Emerging Methods &mdash; Diffusion Models</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">12</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Autoencoders</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">13</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">14</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">15</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">16</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">17</div><div class="month-grid-week">Week 14</div><div class="month-grid-topic">Self-Supervised Learning</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">17</div><div class="month-grid-week">Week 14</div><div class="month-grid-topic">Self-Supervised Learning &amp; Emerging Methods</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">18</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">19</div><div class="month-grid-week">Week 14</div><div class="month-grid-topic">Self-Supervised Learning</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">19</div><div class="month-grid-week">Week 14</div><div class="month-grid-topic">Self-Supervised Learning &amp; Emerging Methods</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">20</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">21</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">22</div></div>

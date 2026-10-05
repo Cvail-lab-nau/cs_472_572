@@ -1,8 +1,9 @@
 ---
-title: 'Week 13: Emerging Methods — Diffusion Models'
+title: 'Week 13: Autoencoders'
 ---
 
-An introduction to diffusion models within the broader landscape of deep generative learning. This week covers
-the forward (noising) and reverse (denoising) processes that define how diffusion models learn to generate
-data, and situates this approach relative to other generative methods &mdash; such as autoencoders and GANs
-&mdash; within the deep generative learning landscape.
+Autoencoders and representation learning with neural networks. This week introduces autoencoders as a
+neural-network approach to unsupervised representation learning: an encoder that compresses input data into a
+lower-dimensional latent representation, and a decoder that reconstructs the original input from it. It covers
+the basic autoencoder architecture and reconstruction-loss objective, and how autoencoders relate to and extend
+the linear dimensionality reduction covered in PCA.
