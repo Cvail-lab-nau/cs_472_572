@@ -163,6 +163,15 @@ an Update Presentation (Week 13), and a Final Presentation & Submission (Week 16
 [Throughout the Semester]({{ site.baseurl }}/throughout-the-semester/) for how these are scheduled and weighted.
 What differs between undergraduate and graduate students is the **deliverable** itself, detailed below.
 
+The Final Project is worth 40 marks in total:
+
+| Component | Marks |
+|:----------|:------|
+| Final Project Overview Presentation | 5 |
+| Final Project Update Presentation | 5 |
+| Final Project Presentation + Deliverable | 30 |
+| **Total** | **40** |
+
 ### Choosing a Topic
 
 - The project must focus on **unsupervised machine learning**.
