@@ -25,9 +25,7 @@ weekly details and materials. Use the arrows (or the dots below) to move between
 
 **Note:** Thanksgiving Day (Thursday, November 26, 2026) falls within Week 15. Final project presentations now
 run across three class days &mdash; December 1, 3, and 8 &mdash; with Tuesday, November 24 set aside as a
-no-class project prep day instead of a presentation day. This differs from the two-day schedule currently
-described in [Course Content]({{ site.baseurl }}/course-content/) (Weeks 15&ndash;16); update those module pages
-to match if this new schedule is final.
+no-class project prep day instead of a presentation day.
 
 <div class="calendar-carousel" id="calendarCarousel">
   <div class="calendar-carousel-header">
@@ -192,16 +190,16 @@ to match if this new schedule is final.
 <div class="month-grid-weekday">Sat</div>
 <div class="month-grid-cell"><div class="month-grid-date">1</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">2</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">3</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">3</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Autoencoders</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">4</div></div>
-<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">5</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
+<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">5</div><div class="month-grid-week">Week 12</div><div class="month-grid-topic">Autoencoders</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">6</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">7</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">8</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">9</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">10</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Autoencoders</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">10</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">11</div></div>
-<div class="month-grid-cell is-class-day is-class"><div class="month-grid-date">12</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Autoencoders</div></div>
+<div class="month-grid-cell is-class-day is-presentation"><div class="month-grid-date">12</div><div class="month-grid-week">Week 13</div><div class="month-grid-topic">Final Project Update Presentation 2</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">13</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">14</div></div>
 <div class="month-grid-cell"><div class="month-grid-date">15</div></div>

@@ -1,6 +1,6 @@
 ---
-title: 'Week 15: Final Project Presentation Day 1'
+title: 'Week 15: No Class — Project Prep & Thanksgiving'
 ---
 
-First day of final project presentations (schedule and location announced closer to the date; typically
-~10 minutes presenting + ~3 minutes Q&A per group).
+No class this week. Tuesday, November 24 is a no-class project prep day &mdash; use it to finish your final
+project and prepare your presentation. Thursday, November 26 is the Thanksgiving holiday.

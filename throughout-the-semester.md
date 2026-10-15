@@ -17,9 +17,9 @@ for exact dates, see [Course Content]({{ site.baseurl }}/course-content/).
 | Category | Occasions | When | Format | Contribution to Grade |
 |:---------|:----------|:-----|:-------|:-----------------------|
 | SOTA Paper Presentation | 2 rounds | Week 5 & Week 11 | Pairs; 10 min total (&asymp;8 min presenting + Q&amp;A) | 30% of course grade (15 marks/round) |
-| Final Project &mdash; Overview Presentation | 1 | Week 7 | Team; topic, novelty, plan, feasibility | 5 of 40 Final Project points |
-| Final Project &mdash; Update Presentation | 2 | Week 9 & Week 12 | Team; progress, implementation updates, timeline | 5 of 40 Final Project points |
-| Final Project &mdash; Final Presentation & Submission | 1 (across 2 class days) | Weeks 15&ndash;16 | Team; full deliverable presented and submitted | Remaining 30 of 40 Final Project points |
+| Final Project &mdash; Overview Presentation | 2 | Week 7 & Week 9 | Team; topic, novelty, plan, feasibility | 5 of 40 Final Project points |
+| Final Project &mdash; Update Presentation | 1 | Week 13 | Team; progress, implementation updates, timeline | 5 of 40 Final Project points |
+| Final Project &mdash; Final Presentation & Submission | 1 (across 3 class days) | Week 16 | Team; full deliverable presented and submitted | Remaining 30 of 40 Final Project points |
 
 That's **6 presentation occasions** in total: 2 as part of the SOTA paper rounds, and 4 as part of the final
 project's milestones.

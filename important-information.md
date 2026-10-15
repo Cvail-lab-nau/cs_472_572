@@ -158,8 +158,8 @@ Full rubric document: [Presentation Rubric]({{ site.baseurl }}/Fall_2026/Files/C
 
 ## Final Project
 
-Everyone follows the same final project milestones &mdash; topic selection, an Overview Presentation (Week 7),
-two Update Presentations (Weeks 9 and 12), and a Final Presentation & Submission (Weeks 15&ndash;16). See
+Everyone follows the same final project milestones &mdash; topic selection, two Overview Presentations (Weeks 7 and 9),
+an Update Presentation (Week 13), and a Final Presentation & Submission (Week 16). See
 [Throughout the Semester]({{ site.baseurl }}/throughout-the-semester/) for how these are scheduled and weighted.
 What differs between undergraduate and graduate students is the **deliverable** itself, detailed below.
 
@@ -184,9 +184,10 @@ What differs between undergraduate and graduate students is the **deliverable** 
 Both levels follow the same milestones, dates, and presentation format, and the same grading rubric below
 &mdash; only the "Deliverable quality" criterion and the GitHub LICENSE requirement differ by level.
 
-### Overview Presentation
+### Overview Presentations
 
-Worth 5 of the 40 points allocated to the Final Project. You must be present on both presentation days &mdash;
+Given twice &mdash; in Week 7 and again in Week 9, where you present a refined overview showing progress and how
+you've incorporated feedback from Week 7. Worth 5 of the 40 points allocated to the Final Project. You must be present on both presentation days &mdash;
 1 point is deducted per day missed without an approved absence arranged in advance. Your slides should address:
 
 1. **Project title**
@@ -200,11 +201,10 @@ Worth 5 of the 40 points allocated to the Final Project. You must be present on 
 This is an initial estimate and can be updated as the project evolves; the most important part is showing
 you've found enough existing work to build on.
 
-### Update Presentations
+### Update Presentation
 
-Given twice &mdash; in Week 9 and again in Week 12. Worth 5 of the 40 points allocated to the Final Project.
-Each presentation should demonstrate concrete
-progress and incorporation of prior feedback:
+Given in Week 13. Worth 5 of the 40 points allocated to the Final Project. The presentation should demonstrate
+concrete progress and incorporation of prior feedback:
 
 - **Problem & direction** &mdash; restate your problem setup with confidence
 - **Progress evidence** &mdash; sample data, preliminary results, or other concrete artifacts (even if small or
